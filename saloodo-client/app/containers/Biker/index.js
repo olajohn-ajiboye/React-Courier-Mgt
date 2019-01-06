@@ -39,6 +39,7 @@ class Biker extends React.Component {
             .then(() => {
                 this.onCloseModal();
             })
+            // eslint-disable-next-line no-alert
             .catch(err => alert(err));
     }
     render() {

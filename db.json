@@ -1,185 +1,186 @@
 {
-    "login": [
-      {
-        "id": 2,
-        "email": "biker1@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 3,
-        "email": "biker2@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 4,
-        "email": "biker3@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 5,
-        "email": "biker4@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 6,
-        "email": "biker5@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 7,
-        "email": "biker6@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 8,
-        "email": "biker7@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 9,
-        "email": "biker8@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 10,
-        "email": "biker9@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "id": 1,
-        "email": "biker10@gmail.com",
-        "password": "123123",
-        "role": "biker"
-      },
-      {
-        "email": "manager@gmail.com",
-        "password": "123123",
-        "role": "manager"
-      }
-    ],
-    "bikers": [
-      {
-        "bikerId": 1,
-        "username": "Biker 1"
-      },
-      {
-        "bikerId": 2,
-        "username": "Biker 2"
-      },
-      {
-        "bikerId": 3,
-        "username": "Biker 3"
-      },
-      {
-        "bikerId": 4,
-        "username": "Biker 4"
-      },
-      {
-        "bikerId": 5,
-        "username": "Biker 5"
-      },
-      {
-        "bikerId": 6,
-        "username": "Biker 6"
-      },
-      {
-        "bikerId": 7,
-        "username": "Biker 7"
-      },
-      {
-        "bikerId": 8,
-        "username": "Biker 8"
-      },
-      {
-        "bikerId": 9,
-        "username": "Biker 9"
-      },
-      {
-        "bikerId": 10,
-        "username": "Biker 10"
-      }
-    ],
-    "parcels": [
-      {
-        "order_id": "ord1",
-        "origin": " Berlin",
-        "destination": "Hamburg",
-        "assignee": "1",
-        "status": "DELIVERED",
-        "timeStamp": "2018-12-27T15:12:13.305Z"
-      },
-      {
-        "order_id": "ord2",
-        "origin": "Munich",
-        "destination": "Frankfurt",
-        "assignee": "1",
-        "status": "DELIVERED",
-        "timeStamp": "2018-12-26T13:48:49.611Z"
-      },
-      {
-        "order_id": "ord3",
-        "origin": "Dortmund",
-        "destination": "Düsseldorf",
-        "assignee": "1",
-        "status": "PICKED_UP"
-      },
-      {
-        "order_id": "ord4",
-        "origin": "Bremen",
-        "destination": "Dresden",
-        "assignee": "4",
-        "status": "DELIVERED"
-      },
-      {
-        "order_id": "ord5",
-        "origin": "Leipzig",
-        "destination": "Stuttgart",
-        "assignee": "3",
-        "status": "ASSIGNED"
-      },
-      {
-        "order_id": "ord6",
-        "origin": "Germany",
-        "destination": "Netherlands",
-        "assignee": "10",
-        "status": "ASSIGNED"
-      },
-      {
-        "order_id": "ord7",
-        "origin": "Quetta",
-        "destination": "USA",
-        "assignee": "5",
-        "status": "PICKED_UP"
-      },
-      {
-        "order_id": "ord8",
-        "origin": "WORLD",
-        "destination": "Heaven",
-        "assignee": "1",
-        "status": "DELIVERED"
-      },
-      {
-        "order_id": "ord9",
-        "origin": "Hell",
-        "destination": "Heaven",
-        "assignee": "1",
-        "status": "DELIVERED"
-      },
-      {
-        "order_id": "ord10",
-        "origin": "Geneva",
-        "destination": "Zurich",
-        "assignee": "1",
-        "status": "DELIVERED"
-      }
-    ]
-  }
+  "login": [
+    {
+      "id": 2,
+      "email": "biker1@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 3,
+      "email": "biker2@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 4,
+      "email": "biker3@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 5,
+      "email": "biker4@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 6,
+      "email": "biker5@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 7,
+      "email": "biker6@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 8,
+      "email": "biker7@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 9,
+      "email": "biker8@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 10,
+      "email": "biker9@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "id": 1,
+      "email": "biker10@gmail.com",
+      "password": "123123",
+      "role": "biker"
+    },
+    {
+      "email": "manager@gmail.com",
+      "password": "123123",
+      "role": "manager"
+    }
+  ],
+  "bikers": [
+    {
+      "bikerId": 1,
+      "username": "Biker 1"
+    },
+    {
+      "bikerId": 2,
+      "username": "Biker 2"
+    },
+    {
+      "bikerId": 3,
+      "username": "Biker 3"
+    },
+    {
+      "bikerId": 4,
+      "username": "Biker 4"
+    },
+    {
+      "bikerId": 5,
+      "username": "Biker 5"
+    },
+    {
+      "bikerId": 6,
+      "username": "Biker 6"
+    },
+    {
+      "bikerId": 7,
+      "username": "Biker 7"
+    },
+    {
+      "bikerId": 8,
+      "username": "Biker 8"
+    },
+    {
+      "bikerId": 9,
+      "username": "Biker 9"
+    },
+    {
+      "bikerId": 10,
+      "username": "Biker 10"
+    }
+  ],
+  "parcels": [
+    {
+      "order_id": "ord1",
+      "origin": " Berlin",
+      "destination": "Hamburg",
+      "assignee": "6",
+      "status": "DELIVERED",
+      "timeStamp": "2018-12-27T15:12:13.305Z"
+    },
+    {
+      "order_id": "ord2",
+      "origin": "Munich",
+      "destination": "Frankfurt",
+      "assignee": "1",
+      "status": "DELIVERED",
+      "timeStamp": "2018-12-26T13:48:49.611Z"
+    },
+    {
+      "order_id": "ord3",
+      "origin": "Dortmund",
+      "destination": "Düsseldorf",
+      "assignee": "1",
+      "status": "PICKED_UP"
+    },
+    {
+      "order_id": "ord4",
+      "origin": "Bremen",
+      "destination": "Dresden",
+      "assignee": "2",
+      "status": "DELIVERED",
+      "timeStamp": "2019-01-06T15:33:52.706Z"
+    },
+    {
+      "order_id": "ord5",
+      "origin": "Leipzig",
+      "destination": "Stuttgart",
+      "assignee": "3",
+      "status": "ASSIGNED"
+    },
+    {
+      "order_id": "ord6",
+      "origin": "Germany",
+      "destination": "Netherlands",
+      "assignee": "10",
+      "status": "ASSIGNED"
+    },
+    {
+      "order_id": "ord7",
+      "origin": "Quetta",
+      "destination": "USA",
+      "assignee": "5",
+      "status": "PICKED_UP"
+    },
+    {
+      "order_id": "ord8",
+      "origin": "WORLD",
+      "destination": "Heaven",
+      "assignee": "1",
+      "status": "DELIVERED"
+    },
+    {
+      "order_id": "ord9",
+      "origin": "Hell",
+      "destination": "Heaven",
+      "assignee": "1",
+      "status": "DELIVERED"
+    },
+    {
+      "order_id": "ord10",
+      "origin": "Geneva",
+      "destination": "Zurich",
+      "assignee": "1",
+      "status": "DELIVERED"
+    }
+  ]
+}

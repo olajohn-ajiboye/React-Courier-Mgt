@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-    let abc = db.get('login')
+    const abc = db.get('login')
         .find({ role: "biker" })
         .value()
     res.send(abc)
@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 
 app.post('/login', (req, res) => {
-    let data = db.get('login')
+    const data = db.get('login')
         .find({ role: req.body.role, email: req.body.email })
         .value()
         console.log(data);
@@ -36,7 +36,7 @@ app.post('/login', (req, res) => {
 });
 
 app.get('/bikers', (req, res) => {
-    let biker = db.get('bikers');
+    const biker = db.get('bikers');
     if (biker) {
         res.status(200);
         res.send({ message: 'Successfull', biker: biker });
@@ -48,7 +48,7 @@ app.get('/bikers', (req, res) => {
 })
 
 app.get('/parcels', (req, res) => {
-    let order = db.get('parcels');
+    const order = db.get('parcels');
     if (order) {
         res.status(200);
         res.send({ message: 'Successfull', order: order });
@@ -60,11 +60,11 @@ app.get('/parcels', (req, res) => {
 })
 
 app.put('/parcels', (req, res) => {
-    let obj = { assignee: req.body.biker_id };
+    const obj = { assignee: req.body.biker_id };
     if (req.body.status) {
         obj['status'] = req.body.status
     }
-    let order = db.get('parcels')
+    const order = db.get('parcels')
         .find({ order_id: req.body.order_id })
         .assign(obj)
         .write();
@@ -80,7 +80,7 @@ app.put('/parcels', (req, res) => {
 });
 
 app.post('/myData', (req, res) => {
-    let data = db.get('parcels')
+    const data = db.get('parcels')
     .filter(val => val.assignee === (req.body.id).toString())
     .value()
     console.log(data)
@@ -95,8 +95,8 @@ app.post('/myData', (req, res) => {
 })
 
 app.put('/myData', (req, res) => {
-    let obj = { status: req.body.status, timeStamp: req.body.timeStamp };
-    let order = db.get('parcels')
+    const obj = { status: req.body.status, timeStamp: req.body.timeStamp };
+    const order = db.get('parcels')
         .find({ order_id: req.body.order_id })
         .assign(obj)
         .write();
