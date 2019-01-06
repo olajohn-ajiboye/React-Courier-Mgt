@@ -1,3 +1,5 @@
+/* eslint-disable no-alert */
+/* eslint-disable no-console */
 import React from 'react';
 import { connect } from 'react-redux';
 import { listType5 } from '../../styles/manager.scss';
